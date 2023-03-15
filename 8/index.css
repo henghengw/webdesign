@@ -1,0 +1,12 @@
+p {
+color: maroon;			}
+h1{
+border-bottom:1px solid black ;
+}
+h1,h2{
+font-family: Aeial;
+color:gray;
+}
+em {
+font-family: "Cascadia Mono"; /* 注意双引号这个细节，想想原因 */
+}
