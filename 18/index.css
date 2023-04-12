@@ -1,0 +1,77 @@
+h1, h2 {
+		font-weight: 600;
+	}
+
+  
+
+    h1 {
+    font-weight: 200;
+    }
+
+
+	.green-font {
+		color: green;
+	}
+	
+	.red-font {
+		color: red;
+	}
+	
+	.blue-font {
+		color: blue;
+	}
+
+  #iname{
+  color:aquamarine
+  }
+
+  .cname{
+  color:blueviolet
+  }
+
+  body h1 {
+  color:aqua
+  }
+
+  p h1 {
+  color: cyan;
+  }
+
+
+span.left {
+	margin-right: 10px;
+}
+
+span.right {
+	margin-left: 20px;
+}
+
+span.ruler {
+	display: inline-block;
+	width: 30px;
+}
+
+.right {
+	float: right;
+}
+
+div.block {
+	width: 45vw;
+	height: 20vh;
+	border: 2px solid black;
+}
+
+.top {
+	margin-bottom: 10px;
+}
+
+.bottom {
+	margin-top: 20px;
+}
+
+.ruler {
+	height: 20px;
+}
+
+
+
