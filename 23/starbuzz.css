@@ -163,7 +163,7 @@ overflow:                    hidden;
 .award{
   position: fixed;
   top: 100px;
-  right: -100px;
+  large
   transition: all 0.5s ease-in;
 }
 .award:hover{
