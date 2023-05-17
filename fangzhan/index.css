@@ -1,50 +1,31 @@
 h3{
 margin:                         0;
-color:                          black;
+color:                          rgba(20, 20, 35, .5);
+border-bottom: 1px solid rgba(20, 20, 35, .3);
 padding:                        0 0 3px 0;
+transition: all 250ms ease;
+text-decoration: none;
 }
 
 h2{
   color: rgab(20,20,35,1);
+  transition: all 250ms ease;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
 }
 a:
 
 span{
-color: black;
-border-bottom: 1px solid rgba(20, 20, 35, .3);
+color: rgba(20,20,35,.35);
+border-bottom: 1px solid rgba(20,20,35,.1);
 margin: 0%;
 padding: 0 0 3px 0;
+transition:all 250ms ease;
+text-decoration:none;
 }
 
 
-.size-full{
-height: auto;
-margin: 0%;
-width: 100%;
-
-}
-
-.one{
-margin:0 6% 15px;
-font-size: .85em;
-font-weight: 400;
-color: rgba(20, 20, 35, .5);
-padding:  7px ;
-line-height: 1.5em;
-letter-spacing: .01em;
-}
-
-
-body{
--webkit-font-smoothing:         antialiased;
--webkit-text-size-adjust:       100%;
-font-size: 100%;
-font-style: normal;
-font-weight: normal;
-font-variant: normal;
-margin: 0 auto;
-width: 100%;
-color: black;
-background-color: aliceblue;
-}
 
