@@ -1,31 +1,214 @@
-h3{
-margin:                         0;
-color:                          rgba(20, 20, 35, .5);
-border-bottom: 1px solid rgba(20, 20, 35, .3);
-padding:                        0 0 3px 0;
-transition: all 250ms ease;
+.posts{
+width:                          970px;
+margin:                         0px 90.4px;
+}
+
+.category{ 
+font-size:                      1em;
+line-height:                    1em;
+font-weight:                    bold;
+margin:                         0 0 18px;
+float:                          none;
+display:                        block;
+text-transform:                 none;
+letter-spacing:                 0;
+font-size: 1.2em; 
+line-height: 1em; 
+font-weight: 970;
+font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+font-style: normal;
+float:none;
+display:block;
+margin: 20px 0 0 -4px;
+display:inline-block;
+font-size:1em;
+line-height:1em;
+font-weight:bold;
+margin: 0 0 18px;
+float:none;
+display:block;
+color: rgba(20,20,35,1);  
+}
+
+.clear{
+clear: both;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+    
+h2 a{
+color: black;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
 text-decoration: none;
 }
 
-h2{
-  color: rgab(20,20,35,1);
-  transition: all 250ms ease;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
+.kong a{
+text-decoration: none;
 }
-a:
 
-span{
-color: rgba(20,20,35,.35);
-border-bottom: 1px solid rgba(20,20,35,.1);
-margin: 0%;
+
+
+.post_details{
+    width:auto;
+    border-top: none;
+    margin: 12px 0 25px;
+    padding: 10px 0 0 0;
+    position: relative;
+    color:#898991;
+}
+
+
+.date{
+float: left;
+display: block;
+margin: 4px 0 0 0;
+font-size: 10px;
+line-height: 1em;
+font-weight: 700;
+font-family: "Clear Sans";
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.author{
+float: right;
+display: block;
+margin: 4px 0 0 0;
+font-size: 10px;
+line-height: 1em;
+font-weight: 700;
+font-family: "Clear Sans";
+font-style: normal;
+text-transform: uppercase;
+letter-spacing: .1em;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+p{
+font-size: 1em;
+line-height: 1.5em;
+margin: 0 0 1em 0;
+font-family: "Sentinel A","Sentinel B","Serif",Georgia;
+font-style: normal;
+font-weight: 400;
+padding: 0;
+border:0;
+font: inherit;
+}
+
+
+.a{
+width: 970px;    
+}
+
+.wp-caption-text{
+    margin:   0 6% 15px;
+    font-size: .85em;
+    font-weight: 400;
+    color:rgba(20, 20, 35, .5);
+    padding:  7px 0 0;
+    line-height: 1.5em;
+    letter-spacing: .01em;
+    font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
+    font-style: normal;
+    border: 0;
+    font:inherit;
+}
+
+.share_story{
+padding:  0 0 6px;
+color: rgba(20, 20, 35, .35);
+border-bottom: 1px solid rgba(20, 20, 35, .15);
+position: absolute;
+top: 0;
+left: 50%;
+transform: translate(-50%,0%);
+font-size: 1em;
+font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
+font-style: normal;
+font-weight: 300;
+}
+
+.posts{
+    width: 970px;
+    margin:0px 90.4px;
+}
+
+.share{
+margin:  30px 0 0;
+padding:  0 0 30px 0;
+text-align: center;
+border-bottom:  1px solid rgba(20, 20, 35, .15);
+line-height: 10px;
+border: 0;
+font: inherit;
+}
+
+.move_that_f{
+position: relative;
+top: 13px;
+margin:  0 15px 0 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.fb_iframe_widget{
+display: inline-block;
+position: relative;
+margin: 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.move_that_tweet{
+position: relative;  
+top: 6px;  
+margin:  0 15px 0 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.move_that_pin{
+top: 0;
+left: 0px;
+width: auto;
+position: relative;
+display: inline-block;
+margin:  0 15px 0 0;
+padding: 0;
+border: 0;
+font: inherit;
+}
+
+.share_break{
+display: block;
+}
+
+.posts a{
+transition: all 250ms ease;
+text-decoration: none;
+border: 0;
+font: inherit;
+}
+
+h3 a{
+color: rgba(20, 20, 35, .5);
+/* border-bottom: 1px solid rgba(20, 20, 35, .3); */
 padding: 0 0 3px 0;
-transition:all 250ms ease;
-text-decoration:none;
+margin: 0 10px 0 0;
+
 }
-
-
-
