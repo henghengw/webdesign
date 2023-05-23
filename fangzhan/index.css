@@ -12,71 +12,68 @@ float:                          none;
 display:                        block;
 text-transform:                 none;
 letter-spacing:                 0;
-font-size: 1.2em; 
-line-height: 1em; 
-font-weight: 970;
-font-family: "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
-font-style: normal;
-float:none;
-display:block;
-margin: 20px 0 0 -4px;
-display:inline-block;
-font-size:1em;
-line-height:1em;
-font-weight:bold;
-margin: 0 0 18px;
-float:none;
-display:block;
-color: rgba(20,20,35,1);  
+font-size:                      1.2em; 
+line-height:                    1em; 
+font-weight:                    970;
+font-family:                    "Ringside Regular A", "Ringside Regular B", Sans-serif, Arial;
+font-style:                     normal;
+float:                          none;
+display:                        block;
+margin:                         20px 0 0 -4px;
+display:                        inline-block;
+font-size:                      1em;
+line-height:                    1em;
+font-weight:                    bold;
+margin:                         0 0 18px;
+float:                          none;
+display:                        block;
+color:                          rgba(20,20,35,1);  
 }
 
 .clear{
-clear: both;
-margin: 0;
-padding: 0;
-border: 0;
-font: inherit;
+clear:                          both;
+margin:                         0;
+padding:                        0;
+border:                         0;
+font:                           inherit;
 }
     
 h2 a{
-color: black;
-margin: 0;
-padding: 0;
-border: 0;
-font: inherit;
-text-decoration: none;
+color:                          black;
+margin:                         0;
+padding:                        0;
+border:                         0;
+font:                           inherit;
+text-decoration:                none;
 }
 
 .kong a{
-text-decoration: none;
+text-decoration:                none;
 }
 
 
 
 .post_details{
-    width:auto;
-    border-top: none;
-    margin: 12px 0 25px;
-    padding: 10px 0 0 0;
-    position: relative;
-    color:#898991;
+margin:                         0 0 25px;
+padding:                        20px 0 0 0;
+position:                       relative;
 }
 
 
 .date{
-float: left;
-display: block;
-margin: 4px 0 0 0;
-font-size: 10px;
-line-height: 1em;
-font-weight: 700;
-font-family: "Clear Sans";
-font-style: normal;
-text-transform: uppercase;
-letter-spacing: .1em;
-padding: 0;
-border: 0;
-font: inherit;
+float:                          left;
+display:                        block;
+margin:                         4px 0 0 0;
+font-size:                      10px;
+line-height:                    1em;
+font-weight:                    700;
+font-family:                    "Clear Sans";
+font-style:                     normal;
+text-transform:                 uppercase;
+letter-spacing:                 .1em;
+padding:                        0;
+border:                         0;
+font:                           inherit;
 }
 
 .author{
@@ -113,21 +110,21 @@ width: 970px;
 }
 
 .wp-caption-text{
-    margin:   0 6% 15px;
-    font-size: .85em;
-    font-weight: 400;
-    color:rgba(20, 20, 35, .5);
-    padding:  7px 0 0;
-    line-height: 1.5em;
-    letter-spacing: .01em;
-    font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
-    font-style: normal;
-    border: 0;
-    font:inherit;
+margin:   0 6% 15px;
+font-size: .85em;
+font-weight: 400;
+color:rgba(20, 20, 35, .5);
+padding:  7px 0 0;
+line-height: 1.5em;
+letter-spacing: .01em;
+font-family: "Ringside Regular A","Ringside Regular B",sans-serif,Arial;
+font-style: normal;
+border: 0;
+font:inherit;
 }
 
 .share_story{
-padding:  0 0 6px;
+padding:  17px 0 6px;
 color: rgba(20, 20, 35, .35);
 border-bottom: 1px solid rgba(20, 20, 35, .15);
 position: absolute;
@@ -141,12 +138,12 @@ font-weight: 300;
 }
 
 .posts{
-    width: 970px;
-    margin:0px 90.4px;
+width: 970px;
+margin:0px 90.4px;
 }
 
 .share{
-margin:  30px 0 0;
+margin:  30px 0 70px;
 padding:  0 0 30px 0;
 text-align: center;
 border-bottom:  1px solid rgba(20, 20, 35, .15);
@@ -157,7 +154,7 @@ font: inherit;
 
 .move_that_f{
 position: relative;
-top: 13px;
+top: 8px;
 margin:  0 15px 0 0;
 padding: 0;
 border: 0;
@@ -175,7 +172,6 @@ font: inherit;
 
 .move_that_tweet{
 position: relative;  
-top: 6px;  
 margin:  0 15px 0 0;
 padding: 0;
 border: 0;
@@ -183,9 +179,9 @@ font: inherit;
 }
 
 .move_that_pin{
-top: 0;
-left: 0px;
-width: auto;
+top: -60px;
+left: -22px;
+width: 110px;
 position: relative;
 display: inline-block;
 margin:  0 15px 0 0;
@@ -207,8 +203,48 @@ font: inherit;
 
 h3 a{
 color: rgba(20, 20, 35, .5);
-/* border-bottom: 1px solid rgba(20, 20, 35, .3); */
+border-bottom: 1px solid rgba(20, 20, 35, .3);
 padding: 0 0 3px 0;
 margin: 0 10px 0 0;
+}
+.hover-black:hover{
+color: black;
+}
 
+.hover-red{
+color: rgba(252, 67, 73, 1);
+margin: 0;
+padding:0 ;
+border: 0;
+font: inherit;
+}
+
+a:after{
+color: rgba(252, 67, 73, 1);
+border-bottom: 1px solid rgba(252, 67, 73, .25);
+padding: 0 0 3px 0;
+transition: all 250ms ease;
+text-decoration: none;
+margin: 0;
+border: 0;
+font:inherit
+}
+
+.hover-pink:hover{
+color: magenta;
+}
+
+.aaa{
+width: 60px;
+height: 20px;
+margin: 0;
+background-image: url(../fangzhan/img/10066.png);
+background-repeat: no-repeat;
+background-size: 60px 20px;
+display: inline-block;
+padding: 0;
+border: 0;
+font: inherit;
+transition: all 250ms ease;
+text-decoration: none;
 }
